@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   count = 0
- name_hash.sort do
+ name_hash.count do
   if name_hash == smallest
     puts "Smallest number is  #{key}"
   end
