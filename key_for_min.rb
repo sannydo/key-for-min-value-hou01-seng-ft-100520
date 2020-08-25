@@ -3,5 +3,6 @@
 
 def key_for_min_value(name_hash)
  name_hash.value.min_by(&:last)
+  puts "the smallest number is #{key}."
   end
 end
