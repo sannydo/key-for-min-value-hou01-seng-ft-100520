@@ -13,6 +13,7 @@ def key_for_min_value(name_hash)
 #   lowest_key
 # end
   
-name_hash.sort do |k, v|
+name_hash.sort do |x, y|
   x <=> y
-  
+ end.first[0]
+end
