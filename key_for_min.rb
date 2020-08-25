@@ -5,5 +5,4 @@ def key_for_min_value(name_hash)
  name_hash.sort_by { |key, value| key }.first
     puts "Smallest number is  #{key}"
   end
- end
 end
